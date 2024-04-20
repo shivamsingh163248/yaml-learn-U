@@ -1,0 +1,7 @@
+application:
+- name: bank
+  technology: java
+- name: e-commerse
+  technology: python
+- name: testing
+  technology: javascript
