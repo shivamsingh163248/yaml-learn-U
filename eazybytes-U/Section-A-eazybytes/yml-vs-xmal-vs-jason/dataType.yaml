@@ -1,0 +1,16 @@
+name: shivam
+language: "java"
+area: 'online'
+major-version: 2
+minar-version: 0.5
+hex: 0x12dc
+octal: 024432
+goodDay: true
+badday: false
+niceweekend: yes
+boringWeekend: no
+positive-infinity: .inf
+negative-infinity: -.Inf
+invalidateNumber: .Nan
+null-value: null
+null-value1: ~
