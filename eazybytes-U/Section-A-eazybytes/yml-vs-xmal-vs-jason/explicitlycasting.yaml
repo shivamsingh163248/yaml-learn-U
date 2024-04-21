@@ -1,0 +1,6 @@
+#learning the explicit define 
+negataive: !!int 45
+
+boolean: !!bool true
+
+
