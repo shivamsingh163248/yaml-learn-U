@@ -1,0 +1,16 @@
+#representation of the yaml formate 
+application:
+- chat
+- support
+- test
+department:
+- cse
+- it
+- mechanical
+university:
+- cse department:
+  - it
+  - cse
+- electronics:
+  - ec
+  - ic
