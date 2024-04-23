@@ -1,0 +1,33 @@
+#learning the anchor and alias
+organization:
+  department:
+  - weekly: &working
+      weekup: 6:00 Am
+      activity:
+      - learning
+      - udamy
+      - simplelearn
+      - sleep
+    sleeptime: 10AM
+  - weekkend: &holyday
+      weekup: 9:am
+      activity:
+      - devops
+      - javafull stack
+      - nextjs
+      - node js
+seduleds:
+  check:
+  weekkend:
+
+  - mondays: *working
+  - tuesday: *working
+  - wednesday: *working
+  - thidays: *working
+  - fri: *working
+
+  weekkends:
+  - saturadys: *holyday
+
+
+
