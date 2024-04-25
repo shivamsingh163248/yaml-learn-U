@@ -2,7 +2,7 @@
 organization:
   department:
   - weekly: &working
-      weekup: 6:00 Am
+      weekup: 6:00 Am #this is the called the allies 
       activity:
       - learning
       - udamy
