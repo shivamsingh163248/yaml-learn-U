@@ -7,7 +7,7 @@
       state: present
 
   - name: deploy the website
+    become: yes
     ansible.builtin.copy:
-      src: /etc/foo.conf
-      dest: /path/to/link
-
+      src: ./index.html
+      dest: /var/www/html/
