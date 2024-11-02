@@ -1,6 +1,13 @@
 - hosts: all
   tasks:
   - name: Install apache2
+    become: yes
     apt:
       name: apache2
       state: present
+
+  - name: deploy the website
+    ansible.builtin.copy:
+      src: /etc/foo.conf
+      dest: /path/to/link
+
